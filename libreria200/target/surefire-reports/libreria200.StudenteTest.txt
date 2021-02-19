@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: libreria200.StudenteTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.166 s <<< FAILURE! - in libreria200.StudenteTest
+creaStudente(libreria200.StudenteTest)  Time elapsed: 0.025 s  <<< FAILURE!
+java.lang.AssertionError
+	at libreria200.StudenteTest.creaStudente(StudenteTest.java:16)
+
