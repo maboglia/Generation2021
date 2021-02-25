@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+#sinistra{
+	float:left;
+	width: 25%; 
+	min-height:600px; 
+	border-right: 1px solid green;  
+}
+
+#destra{
+	float:left;
+	width: 65%; 
+	min-height:600px; 
+	border-left: 1px solid blue;  
+	margin-left: 1rem; 
+	padding-left: 1rem; 
+}
