@@ -45,6 +45,11 @@ public class AlimentoService  implements AlimentoIService{
 		
 		return dao.findByCategoria(cat);
 	}
+
+	@Override
+	public Alimento addProduct(Alimento a) {
+		return dao.save(a);
+	}
 	
 
 }

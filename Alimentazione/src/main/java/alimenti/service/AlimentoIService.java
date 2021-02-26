@@ -12,4 +12,7 @@ public interface AlimentoIService {
 	Alimento getProduct(int id); 
 	Set<String> getCategories(); 
 	List<Alimento> getCategory(String cat); 
+	Alimento addProduct(Alimento a);
+
+
 }
